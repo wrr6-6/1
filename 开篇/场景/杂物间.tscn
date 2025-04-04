@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://dpavs125d3ic1"]
+
+[ext_resource type="Texture2D" uid="uid://20y2cqid3a8w" path="res://开篇/场景/杂物间.png" id="1_m4pwa"]
+
+[node name="杂物间" type="Node2D"]
+
+[node name="杂物间" type="Sprite2D" parent="."]
+position = Vector2(60, 21)
+texture = ExtResource("1_m4pwa")
+
+[node name="Camera2D" type="Camera2D" parent="."]

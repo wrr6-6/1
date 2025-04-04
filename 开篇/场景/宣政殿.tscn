@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://6qvgi3nqf4ba"]
+
+[ext_resource type="Texture2D" uid="uid://vw3s2ctlmddr" path="res://开篇/场景/宣政殿.png" id="1_pojgu"]
+[ext_resource type="Texture2D" uid="uid://bss26enbwd7g3" path="res://开篇/角色/李世民.png" id="2_cx8fg"]
+
+[node name="宣政殿" type="Node2D"]
+
+[node name="宣政殿" type="Sprite2D" parent="."]
+position = Vector2(-27.75, 32.75)
+scale = Vector2(1.21353, 1.06839)
+texture = ExtResource("1_pojgu")
+
+[node name="李世民" type="Sprite2D" parent="."]
+position = Vector2(-63.1719, 40.8281)
+scale = Vector2(0.280579, 0.280579)
+texture = ExtResource("2_cx8fg")
+
+[node name="Camera2D" type="Camera2D" parent="."]

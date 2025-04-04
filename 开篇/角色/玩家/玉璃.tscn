@@ -1,0 +1,157 @@
+[gd_scene load_steps=23 format=3 uid="uid://cbxni4dw5h5su"]
+
+[ext_resource type="Texture2D" uid="uid://2flri5wcmf3e" path="res://开篇/角色/玉璃.png" id="1_6ccnm"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nxqoy"]
+atlas = ExtResource("1_6ccnm")
+region = Rect2(0, 0, 194, 205)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7osj1"]
+atlas = ExtResource("1_6ccnm")
+region = Rect2(194, 0, 194, 205)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2m2ub"]
+atlas = ExtResource("1_6ccnm")
+region = Rect2(388, 0, 194, 205)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_exfx8"]
+atlas = ExtResource("1_6ccnm")
+region = Rect2(582, 0, 194, 205)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kpuo5"]
+atlas = ExtResource("1_6ccnm")
+region = Rect2(776, 0, 194, 205)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dsoep"]
+atlas = ExtResource("1_6ccnm")
+region = Rect2(970, 0, 194, 205)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_44hdi"]
+atlas = ExtResource("1_6ccnm")
+region = Rect2(1164, 0, 194, 205)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0lmyx"]
+atlas = ExtResource("1_6ccnm")
+region = Rect2(0, 205, 194, 205)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hnqlr"]
+atlas = ExtResource("1_6ccnm")
+region = Rect2(194, 205, 194, 205)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_icmih"]
+atlas = ExtResource("1_6ccnm")
+region = Rect2(388, 205, 194, 205)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jaqhk"]
+atlas = ExtResource("1_6ccnm")
+region = Rect2(582, 205, 194, 205)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mapx5"]
+atlas = ExtResource("1_6ccnm")
+region = Rect2(776, 205, 194, 205)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ag2k4"]
+atlas = ExtResource("1_6ccnm")
+region = Rect2(970, 205, 194, 205)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_od8ul"]
+atlas = ExtResource("1_6ccnm")
+region = Rect2(1164, 205, 194, 205)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8ahsq"]
+atlas = ExtResource("1_6ccnm")
+region = Rect2(0, 410, 194, 205)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_y0v8y"]
+atlas = ExtResource("1_6ccnm")
+region = Rect2(388, 410, 194, 205)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4l6sc"]
+atlas = ExtResource("1_6ccnm")
+region = Rect2(582, 410, 194, 205)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pvs8r"]
+atlas = ExtResource("1_6ccnm")
+region = Rect2(776, 410, 194, 205)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_aoic0"]
+atlas = ExtResource("1_6ccnm")
+region = Rect2(970, 410, 194, 205)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kur3s"]
+atlas = ExtResource("1_6ccnm")
+region = Rect2(1164, 410, 194, 205)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_2dlij"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nxqoy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7osj1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2m2ub")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_exfx8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kpuo5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dsoep")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_44hdi")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0lmyx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hnqlr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_icmih")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jaqhk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mapx5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ag2k4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_od8ul")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8ahsq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_y0v8y")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4l6sc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pvs8r")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_aoic0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kur3s")
+}],
+"loop": true,
+"name": &"cat",
+"speed": 5.0
+}]
+
+[node name="玉璃" type="Node2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_2dlij")
+animation = &"cat"

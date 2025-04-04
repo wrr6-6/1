@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://cqy767u8mak10"]
+
+[ext_resource type="Texture2D" uid="uid://cqp03htj02re0" path="res://开篇/场景/厨房.png" id="1_a6uyt"]
+
+[node name="厨房" type="Node2D"]
+
+[node name="厨房" type="Sprite2D" parent="."]
+position = Vector2(-1, -13)
+texture = ExtResource("1_a6uyt")

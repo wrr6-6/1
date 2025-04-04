@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=3 uid="uid://7uhpeo8irl6c"]
+
+[ext_resource type="Texture2D" uid="uid://5anv3ejdf8x2" path="res://开篇/场景/客厅.png" id="1_e73ij"]
+
+[node name="客厅" type="Node2D"]
+
+[node name="Camera2D" type="Camera2D" parent="."]
+
+[node name="客厅" type="Sprite2D" parent="."]
+position = Vector2(9.15527e-05, -2.666)
+scale = Vector2(1.67091, 1.40921)
+texture = ExtResource("1_e73ij")

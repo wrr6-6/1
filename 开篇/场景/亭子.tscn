@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://65a46ttk1pnt"]
+
+[ext_resource type="Texture2D" uid="uid://x8ttsnj1t5f6" path="res://开篇/场景/亭子.png" id="1_ruthl"]
+
+[node name="亭子" type="Node2D"]
+
+[node name="亭子" type="Sprite2D" parent="."]
+position = Vector2(10, -48)
+texture = ExtResource("1_ruthl")
+
+[node name="Camera2D" type="Camera2D" parent="."]

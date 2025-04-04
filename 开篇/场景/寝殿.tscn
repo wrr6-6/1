@@ -1,0 +1,58 @@
+[gd_scene load_steps=7 format=3 uid="uid://co4pxjxd61pf0"]
+
+[ext_resource type="Texture2D" uid="uid://lhgve8uxqg7g" path="res://开篇/场景/寝殿.png" id="1_qxsij"]
+[ext_resource type="PackedScene" uid="uid://cmc4tncjagw8f" path="res://开篇/角色/玩家/palyer.tscn" id="2_f1gko"]
+
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_up3kq"]
+distance = -309.0
+
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_rjbbc"]
+distance = -263.999
+
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_ejmxu"]
+normal = Vector2(-0.0194813, -0.99981)
+distance = 179.511
+
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_iqhuc"]
+distance = -214.174
+
+[node name="寝殿" type="Node2D"]
+
+[node name="寝殿" type="Sprite2D" parent="."]
+position = Vector2(9.4999, -16)
+scale = Vector2(1.72173, 1.46264)
+texture = ExtResource("1_qxsij")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+
+[node name="边界" type="Node2D" parent="."]
+metadata/_edit_lock_ = true
+
+[node name="StaticBody2D2" type="StaticBody2D" parent="边界"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="边界/StaticBody2D2"]
+position = Vector2(-2, 511)
+shape = SubResource("WorldBoundaryShape2D_up3kq")
+
+[node name="StaticBody2D3" type="StaticBody2D" parent="边界"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="边界/StaticBody2D3"]
+position = Vector2(890, 13.5)
+rotation = -1.57122
+shape = SubResource("WorldBoundaryShape2D_rjbbc")
+
+[node name="StaticBody2D4" type="StaticBody2D" parent="边界"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="边界/StaticBody2D4"]
+position = Vector2(-4, -725)
+rotation = -3.14159
+shape = SubResource("WorldBoundaryShape2D_ejmxu")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="边界"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="边界/StaticBody2D"]
+position = Vector2(-868, -11)
+rotation = 1.57372
+shape = SubResource("WorldBoundaryShape2D_iqhuc")
+
+[node name="palyer" parent="." instance=ExtResource("2_f1gko")]

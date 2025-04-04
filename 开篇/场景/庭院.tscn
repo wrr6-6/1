@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=3 uid="uid://b57lop7lq2aoe"]
+
+[ext_resource type="Texture2D" uid="uid://darabj6kpuvvd" path="res://开篇/场景/庭院.png" id="1_l4ys5"]
+
+[node name="庭院" type="Node2D"]
+
+[node name="庭院" type="Sprite2D" parent="."]
+position = Vector2(-18, -7.00001)
+scale = Vector2(2.00466, 1.73918)
+texture = ExtResource("1_l4ys5")
+
+[node name="Camera2D" type="Camera2D" parent="."]
